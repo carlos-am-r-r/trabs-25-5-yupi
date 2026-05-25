@@ -6,13 +6,13 @@ from datetime import datetime
 # =====================================================================
 
 class Paciente:
-    def __init__(self, id_paciente: int, nome: String, cpf: String):
+    def __init__(self, id_paciente: int, nome: str, cpf: str):
         self.id = id_paciente
         self.nome = nome
         self.cpf = cpf
 
 class Medico:
-    def __init__(self, id_medico: int, nome: String, crm: String):
+    def __init__(self, id_medico: int, nome: str, crm: str):
         self.id = id_medico
         self.nome = nome
         self.crm = crm
